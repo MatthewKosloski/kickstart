@@ -15,3 +15,9 @@ Then, compile.
 ```js
 	$ npm run dev || npm run dev:watch  
 ``` 
+
+To build:
+
+```js
+	$ npm run build  
+```
