@@ -1,0 +1,36 @@
+h1,
+.heading-one {
+	@include breakpoint(lg) {
+		margin: rem(64) 0;
+	}
+	@include breakpoint(md) {
+		margin: rem(48) 0;
+	}
+	@include typi($h1-map);
+}
+
+h2,
+.heading-two {
+	@include breakpoint(lg) {
+		margin: rem(48) 0;
+	}
+	@include breakpoint(md) {
+		margin: rem(32) 0;
+	}
+	@include typi($h2-map);
+}
+
+h3,
+.heading-three {
+	@include typi($h3-map);
+	margin: rem(32) 0;
+}
+
+h4,
+.heading-four {
+	@include typi($h4-map);
+}
+
+p {
+	margin: rem(32) 0;
+}
